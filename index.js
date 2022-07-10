@@ -5,8 +5,8 @@ let {render} = require('mustache');
 let template = `
 # {{name}}
 {{short_note}}
-Author: [{{author}}](https://www.github.com/{{author}}/) \
-Repo: [{{repo}}](https://www.github.com/{{author}}/{{repo}}/) \
+Author: [{{author}}](https://www.github.com/{{author}}/) \\
+Repo: [{{repo}}](https://www.github.com/{{author}}/{{repo}}/) 
 `;
 
 let output = "";
